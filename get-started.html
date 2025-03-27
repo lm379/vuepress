@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <meta name="generator" content="VuePress 2.0.0-rc.20" />
+    <style>
+      :root {
+        --vp-c-bg: #fff;
+      }
+
+      [data-theme='dark'] {
+        --vp-c-bg: #1b1b1f;
+      }
+
+      html,
+      body {
+        background-color: var(--vp-c-bg);
+      }
+    </style>
+    <script>
+      const useChoice = localStorage.getItem('vuepress-color-scheme')
+      const systemStatus =
+        'matchMedia' in window
+          ? window.matchMedia('(prefers-color-scheme: dark)').matches
+          : false
+
+      if (useChoice === 'light') {
+        document.documentElement.dataset.theme = 'light'
+      } else if (useChoice === 'dark' || systemStatus) {
+        document.documentElement.dataset.theme = 'dark'
+      }
+    </script>
+    <title>lm379</title><meta name="description" content="记录学习">
+    <link rel="preload" href="/assets/style-CeW1tJCE.css" as="style"><link rel="stylesheet" href="/assets/style-CeW1tJCE.css">
+    <link rel="modulepreload" href="/assets/app-Bcxw9xI6.js"><link rel="modulepreload" href="/assets/get-started.html-B96uP4nb.js">
+    <link rel="prefetch" href="/assets/index.html-Ds9CkWlW.js" as="script"><link rel="prefetch" href="/assets/KMP算法.html-CmB1qlrK.js" as="script"><link rel="prefetch" href="/assets/404.html-CZ1JCYVr.js" as="script"><link rel="prefetch" href="/assets/index.html-CxbI3NWS.js" as="script"><link rel="prefetch" href="/assets/index.html-Bratc63f.js" as="script"><link rel="prefetch" href="/assets/index.html-DXCbivCr.js" as="script"><link rel="prefetch" href="/assets/index.html-DCfVuAlA.js" as="script"><link rel="prefetch" href="/assets/index.html-CNtfwiff.js" as="script"><link rel="prefetch" href="/assets/index.html-CMmGiwPG.js" as="script">
+  </head>
+  <body>
+    <div id="app"><!--[--><div class="vp-theme-container external-link-icon" vp-container><!--[--><header class="vp-navbar" vp-navbar><div class="vp-toggle-sidebar-button" title="toggle sidebar" aria-expanded="false" role="button" tabindex="0"><div class="icon" aria-hidden="true"><span></span><span></span><span></span></div></div><span><a class="route-link" href="/"><img class="vp-site-logo" src="https://vuejs.press/images/hero.png" alt="lm379"><span class="vp-site-name vp-hide-mobile" aria-hidden="true">lm379</span></a></span><div class="vp-navbar-items-wrapper" style=""><!--[--><!--]--><nav class="vp-navbar-items vp-hide-mobile" aria-label="site navigation"><!--[--><div class="vp-navbar-item"><a class="route-link auto-link" href="/" aria-label="首页"><!--[--><!--[--><!--]--><!--]-->首页<!--[--><!--[--><!--]--><!--]--></a></div><div class="vp-navbar-item"><a class="route-link auto-link" href="/article/" aria-label="博文"><!--[--><!--[--><!--]--><!--]-->博文<!--[--><!--[--><!--]--><!--]--></a></div><div class="vp-navbar-item"><a class="route-link auto-link" href="/category/" aria-label="分类"><!--[--><!--[--><!--]--><!--]-->分类<!--[--><!--[--><!--]--><!--]--></a></div><div class="vp-navbar-item"><a class="route-link auto-link" href="/tag/" aria-label="标签"><!--[--><!--[--><!--]--><!--]-->标签<!--[--><!--[--><!--]--><!--]--></a></div><div class="vp-navbar-item"><a class="route-link auto-link" href="/timeline/" aria-label="时间线"><!--[--><!--[--><!--]--><!--]-->时间线<!--[--><!--[--><!--]--><!--]--></a></div><!--]--></nav><!--[--><!--]--><button type="button" class="vp-toggle-color-mode-button" title="toggle color mode"><svg class="light-icon" viewbox="0 0 32 32" style=""><path d="M16 12.005a4 4 0 1 1-4 4a4.005 4.005 0 0 1 4-4m0-2a6 6 0 1 0 6 6a6 6 0 0 0-6-6z" fill="currentColor"></path><path d="M5.394 6.813l1.414-1.415l3.506 3.506L8.9 10.318z" fill="currentColor"></path><path d="M2 15.005h5v2H2z" fill="currentColor"></path><path d="M5.394 25.197L8.9 21.691l1.414 1.415l-3.506 3.505z" fill="currentColor"></path><path d="M15 25.005h2v5h-2z" fill="currentColor"></path><path d="M21.687 23.106l1.414-1.415l3.506 3.506l-1.414 1.414z" fill="currentColor"></path><path d="M25 15.005h5v2h-5z" fill="currentColor"></path><path d="M21.687 8.904l3.506-3.506l1.414 1.415l-3.506 3.505z" fill="currentColor"></path><path d="M15 2.005h2v5h-2z" fill="currentColor"></path></svg><svg class="dark-icon" viewbox="0 0 32 32" style="display:none;"><path d="M13.502 5.414a15.075 15.075 0 0 0 11.594 18.194a11.113 11.113 0 0 1-7.975 3.39c-.138 0-.278.005-.418 0a11.094 11.094 0 0 1-3.2-21.584M14.98 3a1.002 1.002 0 0 0-.175.016a13.096 13.096 0 0 0 1.825 25.981c.164.006.328 0 .49 0a13.072 13.072 0 0 0 10.703-5.555a1.01 1.01 0 0 0-.783-1.565A13.08 13.08 0 0 1 15.89 4.38A1.015 1.015 0 0 0 14.98 3z" fill="currentColor"></path></svg></button><!----></div></header><!--]--><div class="vp-sidebar-mask"></div><!--[--><aside class="vp-sidebar" vp-sidebar><nav class="vp-navbar-items" aria-label="site navigation"><!--[--><div class="vp-navbar-item"><a class="route-link auto-link" href="/" aria-label="首页"><!--[--><!--[--><!--]--><!--]-->首页<!--[--><!--[--><!--]--><!--]--></a></div><div class="vp-navbar-item"><a class="route-link auto-link" href="/article/" aria-label="博文"><!--[--><!--[--><!--]--><!--]-->博文<!--[--><!--[--><!--]--><!--]--></a></div><div class="vp-navbar-item"><a class="route-link auto-link" href="/category/" aria-label="分类"><!--[--><!--[--><!--]--><!--]-->分类<!--[--><!--[--><!--]--><!--]--></a></div><div class="vp-navbar-item"><a class="route-link auto-link" href="/tag/" aria-label="标签"><!--[--><!--[--><!--]--><!--]-->标签<!--[--><!--[--><!--]--><!--]--></a></div><div class="vp-navbar-item"><a class="route-link auto-link" href="/timeline/" aria-label="时间线"><!--[--><!--[--><!--]--><!--]-->时间线<!--[--><!--[--><!--]--><!--]--></a></div><!--]--></nav><!--[--><!--]--><ul class="vp-sidebar-items"><!--[--><li><p tabindex="0" class="vp-sidebar-item vp-sidebar-heading"> <!----></p><!----></li><!--]--></ul><!--[--><!--]--></aside><!--]--><!--[--><main class="vp-page"><!--[--><!--]--><div vp-content><!--[--><!--]--><div><h2 id="提示" tabindex="-1"><a class="header-anchor" href="#提示"><span>提示</span></a></h2><p>不建议来自<strong>中国大陆</strong>的用户使用<strong>国外公共DNS</strong>访问本站由于本站采用境内腾讯云CDN+境外vercel的策略，使用部分国外公共DNS会导致IP解析到境外增加延迟，因此建议国内用户使用境内DNS</p><blockquote><p>这两个站点采用的方案为境内腾讯云CDN+境外Cloudflare加速 若使用1.1.1.1等DNS会直接解析到CF的CDN节点 https://pan.lm379.cn https://cloud.lm379.cn</p></blockquote><h2 id="以下为腾讯公共dns" tabindex="-1"><a class="header-anchor" href="#以下为腾讯公共dns"><span>以下为腾讯公共DNS</span></a></h2><div class="language-text line-numbers-mode" data-highlighter="prismjs" data-ext="text"><pre><code><span class="line">IPv4: 119.29.29.29</span>
+<span class="line">IPv6: 2402:4e00::</span>
+<span class="line">DoH: https://doh.pub/dns-query</span>
+<span class="line">DoH(国密): https://sm2.doh.pub/dns-query</span>
+<span class="line">DoT: dot.pub</span>
+<span class="line"></span></code></pre><div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0;"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><h2 id="以下为使用不同dns访问本站的延迟对比" tabindex="-1"><a class="header-anchor" href="#以下为使用不同dns访问本站的延迟对比"><span>以下为使用不同DNS访问本站的延迟对比</span></a></h2><h3 id="运营商dns" tabindex="-1"><a class="header-anchor" href="#运营商dns"><span>运营商DNS</span></a></h3><p><img src="https://r2.lm379.cn/2024/05/d1cbe4437809d72b30f1ccd3f78194b5.png" alt=""></p><h3 id="腾讯公共dns-119-29-29-29" tabindex="-1"><a class="header-anchor" href="#腾讯公共dns-119-29-29-29"><span>腾讯公共DNS 119.29.29.29</span></a></h3><p><img src="https://r2.lm379.cn/2024/05/e2196771600e9d58b8106bde8b3477b4.png" alt=""></p><h3 id="阿里公共dns-223-5-5-5" tabindex="-1"><a class="header-anchor" href="#阿里公共dns-223-5-5-5"><span>阿里公共DNS 223.5.5.5</span></a></h3><p><img src="https://r2.lm379.cn/2024/05/d95a3f50e7d378d10762af91c88614c5.png" alt=""></p><h3 id="谷歌公共dns-8-8-8-8" tabindex="-1"><a class="header-anchor" href="#谷歌公共dns-8-8-8-8"><span>谷歌公共DNS 8.8.8.8</span></a></h3><blockquote><p>谷歌DNS存在使用时存在DNS抢答，实际响应时间并不准确</p></blockquote><p><img src="https://r2.lm379.cn/2024/05/f3a8f3b405b728c1a6524f6a2491efa2.png" alt=""></p><h3 id="cloudflare公共dns-1-1-1-1" tabindex="-1"><a class="header-anchor" href="#cloudflare公共dns-1-1-1-1"><span>Cloudflare公共DNS 1.1.1.1</span></a></h3><p><img src="https://r2.lm379.cn/2024/05/344b4f3d126cd03f2ea38195a6481f61.png" alt=""></p><h3 id="yandex公共dns-77-88-8-88" tabindex="-1"><a class="header-anchor" href="#yandex公共dns-77-88-8-88"><span>Yandex公共DNS 77.88.8.88</span></a></h3><p><img src="https://r2.lm379.cn/2024/05/8fcf97d5be43c23652d08122a99139f2.png" alt=""></p></div><!--[--><!--]--></div><footer class="vp-page-meta"><!----><div class="vp-meta-item git-info"><div class="vp-meta-item last-updated"><span class="meta-item-label">最近更新：: </span><time class="meta-item-info" datetime="2025-03-27T06:24:01.000Z" data-allow-mismatch>2025/3/27 06:24</time></div><div class="vp-meta-item contributors"><span class="meta-item-label">Contributors: </span><span class="meta-item-info"><!--[--><!--[--><span class="contributor" title="email: 2645081603@qq.com">lm379</span><!----><!--]--><!--]--></span></div></div></footer><!----><!--[--><!--]--></main><!--]--></div><!--[--><!----><!--]--><!--]--></div>
+    <script type="module" src="/assets/app-Bcxw9xI6.js" defer></script>
+  </body>
+</html>
